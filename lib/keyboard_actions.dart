@@ -198,18 +198,18 @@ class _FormKeyboardActionsState extends State<FormKeyboardActions>
                     width: MediaQuery.of(context).size.width,
                     child: Row(
                       children: [
-                        widget.nextFocus
-                            ? IconButton(
-                                icon: Icon(Icons.keyboard_arrow_up),
-                                onPressed: _onTapUp,
-                              )
-                            : SizedBox(),
-                        widget.nextFocus
-                            ? IconButton(
-                                icon: Icon(Icons.keyboard_arrow_down),
-                                onPressed: _onTapDown,
-                              )
-                            : SizedBox(),
+                        // widget.nextFocus
+                        //     ? IconButton(
+                        //         icon: Icon(Icons.keyboard_arrow_up),
+                        //         onPressed: _onTapUp,
+                        //       )
+                        //     : SizedBox(),
+                        // widget.nextFocus
+                        //     ? IconButton(
+                        //         icon: Icon(Icons.keyboard_arrow_down),
+                        //         onPressed: _onTapDown,
+                        //       )
+                        //     : SizedBox(),
                         Spacer(),
                         _currentAction?.displayCloseWidget != null &&
                                 _currentAction.displayCloseWidget
